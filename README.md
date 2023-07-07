@@ -11,23 +11,23 @@ Create a command-line tool that counts the number of words in a given text file.
 
 ## Steps to Implement:
 
-1. <b>Set up a new Rust project:</b>
+1. <b>**Set up a new Rust project:**</b>
 Create a new Rust project using the Cargo package manager. Open a terminal and run the following command:
 `cargo new word_counter`
 
-2. <b>Read the input file:</b>
+2. <b>**Read the input file:**</b>
 Write code to read the contents of a text file specified as a command-line argument. You can use the std::fs module to handle file I/O.
 
-3. <b>Split the text into words:</b>
+3. <b>**Split the text into words:**</b>
 Take the text read from the file and split it into individual words. You can use the split_whitespace() method provided by the str type.
 
-4. <b>Count the words:</b>
+4. <b>**Count the words:**</b>
 Count the number of words in the text by iterating over the split words and incrementing a counter variable.
 
-5. <b>Display the result:</b>
+5. <b>**Display the result:**</b>
 Output the total count of words to the console.
 
-6. <b>Handle errors:</b>
+6. <b>**Handle errors:**</b>
 Add error handling logic to handle cases such as file not found, read errors, or any other unexpected issues that may arise.
 
 ## Further Enhancements:
